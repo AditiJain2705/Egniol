@@ -47,13 +47,5 @@ text-align: center;
     height: auto; 
     object-fit: contain;
   }
-  .growCard{
-  width: 24%;;
-    padding: 1vmax;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
+ 
   

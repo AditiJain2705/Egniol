@@ -27,14 +27,14 @@ const TestinomialCardSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
-    if(currentIndex===cards.length-1){
-        setCurrentIndex(0)
-    }
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % cards.length);
-    }, 3000); 
+    // if(currentIndex===cards.length-1){
+    //     setCurrentIndex(0)
+    // }
+    // const interval = setInterval(() => {
+    //   setCurrentIndex((prevIndex) => (prevIndex + 1) % cards.length);
+    // }, 3000); 
 
-    return () => clearInterval(interval); 
+    // return () => clearInterval(interval); 
   }, [cards.length]);
 
   return (

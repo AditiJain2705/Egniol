@@ -18,7 +18,7 @@ const Services = () => {
             onMouseLeave={() => setHoveredIndex(null)}
             
             sx={{
-                height: { xs: '25%',sm:'30%', md: '32%' },
+                height: { xs: '25%',sm:'30%', md: '33%' },
 
                 width: { xs: '45%',sm:'40%', md: '33%' },
                 transition: 'transform 0.3s ease',
@@ -32,7 +32,7 @@ const Services = () => {
                 marginTop:'5%'
             }}
           >
-<CardContent style={{height:'80%', background:'linear-gradient(white, #EFF6FF)'}}>
+<CardContent style={{height:'85%', background:'linear-gradient(white, #EFF6FF)'}}>
     <Typography variant='h6' style={{    color:'orangered'
 }}>UPTO</Typography>
     <Typography  sx={{fontWeight:"bold",color:'orangered',fontSize:{xs:'1rem',md:'3rem'}}} >{card.money}</Typography>
@@ -40,7 +40,7 @@ const Services = () => {
     </CardContent>    
     <CardActions style={{display:'flex',justifyContent:'space-between'}}>
         <img src={card.imgSrc} />
-        <Button className={styles.button} style={{borderRadius: '30px',textTransform:'capitalize',width:'50%'}}>Avail Now</Button>
+        <Button className={styles.button} style={{borderRadius: '30px',textTransform:'capitalize',width:'50%',backgroundColor:'#03518F',color:'white'}}>Avail Now</Button>
         </CardActions>        
           </Card>
          

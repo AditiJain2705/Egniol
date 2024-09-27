@@ -10,7 +10,7 @@ const Dashboard = () => {
 <Typography variant="h2" color="white" fontWeight={'bold'}>Hum Badhayenge<br/>
 Aapka Business</Typography>
 <Typography variant="h5" color="white" padding={'0.8vmax 0vmax'}>One stop solution for MSMEs and startups</Typography>
-<Button  className="font-semibold text-sm leading-6 text-white bg-[#03518F] border border-[#03518F] rounded-full px-9 py-3 mt-2 transition-all duration-150 ease-in-out cursor-pointer normal-case
+<Button style={{backgroundColor:"#03518F"}} className="font-semibold text-sm leading-6 text-white border border-[#03518F] rounded-full px-9 py-3 mt-2 transition-all duration-150 ease-in-out cursor-pointer normal-case
 ">Learn How</Button>
 </Box>
 <Box marginTop={'2vmax'}>
