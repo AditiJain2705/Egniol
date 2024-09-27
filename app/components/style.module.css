@@ -1,0 +1,59 @@
+.dashboardStyle{
+    height: 60vh;
+    background: linear-gradient(#17203C, #13161E);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.button{
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    text-decoration: none;
+    background-color: #03518F;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: white;
+    transition: all 150ms ease;
+    cursor: pointer;
+    border: 1px solid #03518F;
+    border-radius: 0.25rem;
+}
+.slider {
+    overflow: hidden;
+    width: 100%;
+    height: 400px; 
+    margin-top: 10%;
+  }
+  
+  .card {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .cardItem {
+    min-height: 10%;
+    min-width: 15%; 
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .cardItem img {
+    width: 100%; 
+    height: auto; 
+    object-fit: contain;
+  }
+  .growCard{
+  width: 24%;;
+    padding: 1vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  

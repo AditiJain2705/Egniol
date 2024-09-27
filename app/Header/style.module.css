@@ -1,0 +1,23 @@
+.header{
+    height: 12vh;
+    /* background-color: #252E47; */
+    background-color: #17203C;
+    padding: 0.1vmax 1vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .blinking {
+       
+        animation: blinking 1s infinite;
+    }
+    
+    @keyframes blinking {
+        0%, 100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0.5;
+        }
+    }
+    
